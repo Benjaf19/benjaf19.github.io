@@ -2,45 +2,276 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Benjamin Campos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Benjamin Campos Portfolio</title>
+    <link rel="stylesheet" href="estiloBC.css">
 </head>
 <body>
+    <!-- Header and Navigation -->
     <header>
-        <h1>Portafolio de Benjamin Campos</h1>
-        <p>Bienvenido a mi portafolio. Aquí encontrarás algunos de los proyectos que he realizado.</p>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Benjamin Campos</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section id="experience">
-            <h2>Experiencia</h2>
+    <!-- Main Content -->
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>Hi! My name is <span>Benjamin Jesus Campos Flores</span></h2>
+        <h3><i></i>Software Developer</i></h3>
+        <h3>23 years old</h3>
+        <p> I possess an innate passion for technology and ongoing learning. During my education, I've gained robust expertise in IT, programming skills, database management and software development methodologies. Moreover, I've had the opportunity to join into work environment for almost 2 years where I was able to put into action the knowledge learned, at the same time I improved my analytical and problem solving skills applied in real life situations as well as essential skills such as effective communication and teamwork, pivotal elements for success in collaborative and dynamic environments.
+        </p>
+        <h3>Languages: </h3>
+        <p><b>             Spanish</b>(Native), <b>English</b>(C1)</p>
+       <!-- <img src="your-image.jpg" alt="Benjamin Campos">-->
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <h2>Education</h2>
+    
+        <div class="education-container">
             
-            <!-- Proyecto 1 -->
-            <div class="project">
-                <h3>Nombre del Proyecto 1</h3>
-                <p>Descripción breve del proyecto 1. Este proyecto trata sobre...</p>
-                <p><strong>Tecnologías usadas:</strong> HTML, CSS, JavaScript</p>
-                <a href="https://github.com/tu-usuario/proyecto-1" target="_blank">Ver en GitHub</a>
+            <div class="education-item left">
+                <img src="img/cecyt-logo.png" alt="CECyT 9 Logo" class="edu-logo">
+                <h3>CECyT 9 "Juan de Dios Bátiz", IPN</h3>
+                <p><strong>Technical Degree in Programming</strong></p>
+                <p>August 2016 – July 2019</p>
+                <p>Mexico City, Mexico</p>
             </div>
-
-            <!-- Proyecto 2 -->
-            <div class="project">
-                <h3>Nombre del Proyecto 2</h3>
-                <p>Descripción breve del proyecto 2. Este proyecto trata sobre...</p>
-                <p><strong>Tecnologías usadas:</strong> Python, Django, PostgreSQL</p>
-                <a href="https://github.com/tu-usuario/proyecto-2" target="_blank">Ver en GitHub</a>
+            <div class="education-item center">
+                <img src="img/upm-logo.png" alt="Universidad Politécnica de Madrid Logo" class="edu-logo">
+                <h3>Universidad Politécnica de Madrid</h3>
+                <p><strong>Computer Engineering (International Academic Exchange)</strong></p>
+                <p>September 2023 – February 2024</p>
+                <p>Madrid, Spain</p>
             </div>
+    
+           
+            <div class="education-item right">
+                <img src="img/cecyt-logo.png" alt="UPIICSA Logo" class="edu-logo">
+                <h3>UPIICSA, IPN</h3>
+                <p><strong>Bachelor's in Computer Engineering</strong></p>
+                <p>January 2020 – June 2024</p>
+                <p>Mexico City, Mexico</p>
+            </div>
+        </div>
+    </section>
+    
+    
+        
 
-            <!-- Agrega más proyectos según sea necesario -->
-        </section>
-    </main>
+    <!-- Work Section -->
+    <section id="work" class="section work">
+        <h2>Work Experience</h2>
+    
+        <div class="work-item">
+            <img src="img/netlogistik-logo.png" alt="Netlogistik Logo" class="work-logo">
+            <h3>Netlogistik, Software Consultant</h3>
+            <p><strong>November 2022 – Present</strong></p>
+            <p>Mexico City, Mexico</p>
+            <ul>
+                <li><strong>Actively participate</strong> in different project phases from <strong>requirements definition</strong> to <strong>go-live</strong>.</li>
+                <li><strong>System configuration</strong> to address specific <strong>business customer needs</strong>.</li>
+                <li><strong>Write Java code</strong> for <strong>supply chain process web services</strong>.</li>
+                <li><strong>Develop SQL reports</strong> based on customer requirements for <strong>analytics</strong> and <strong>decision-making</strong>, improving <strong>efficiency</strong> and <strong>productivity</strong>.</li>
+                <li>Provided <strong>on-site support</strong> during <strong>go-live</strong> at Soriana's Distribution Center in Villahermosa, resolving <strong>issues</strong>, answering <strong>end-user questions</strong>, and closing <strong>operational gaps</strong>.</li>
+            </ul>
+            
+        </div>
+    </section>
+    
 
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Professional Skills</h3>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <img src="img/csharp-logo.png" alt="C#">
+                        <p>C#</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/java-logo.png" alt="Java">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/dotnet-logo.png" alt=".NET">
+                        <p>.NET</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/sql-logo.png" alt="SQL">
+                        <p>SQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/javascript-logo.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/html-logo.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/css-logo.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/linux-logo.png" alt="Linux">
+                        <p>Linux</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/microsoft365-logo.png" alt="Microsoft 365 Suite">
+                        <p>Microsoft 365 Suite</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/scrum-logo.png" alt="SCRUM">
+                        <p>SCRUM</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/azure-logo.png" alt="Azure">
+                        <p>Azure</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/git-logo.png" alt="Git">
+                        <p>Git</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <img src="img/communication-logo.png" alt="Effective Communication">
+                        <p>Effective Communication</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/teamwork-logo.png" alt="Teamwork">
+                        <p>Teamwork</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/resilience-logo.png" alt="Resilience">
+                        <p>Resilience</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/problem-solving-logo.png" alt="Problem Solving">
+                        <p>Problem Solving</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/analytical-logo.png" alt="Analytical">
+                        <p>Analytical</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Experience Section -->
+    <section id="certifications" class="section certifications">
+        <h2>Certifications</h2>
+    
+        <p class="certification">
+            <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=842439" target="_blank">
+                SCRUM Fundamentals Certified — ID: 842439 by SCRUMstudy
+            </a> |
+        </p>
+        <p class="certification">
+            <a href="https://www.6sigmastudy.com/certification/certification-registry" target="_blank">
+                Six Sigma Yellow Belt — ID: 829563 by 6sigmastudy
+            </a> |
+        </p>
+        <p class="certification">
+            Project Management Workshop — by Difebru |
+        </p>
+        <p class="certification">
+            Organizational Change Management — by Difebru |
+        </p>
+        <p class="certification">
+            Workshop on Business Emotional Intelligence — by Difebru
+        </p>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1: CrowdfundingIPN</h3>
+                        <p> Crowdfunding was a project about a web and mobile(Android) platform that allowed IPN students an easy way to finance their projects and ideas through crowfunding.</p>
+                        <p>Technologies:<strong> Java, HTML, CSS, JavaScript, JSP, Servlets, WebServices, MySQL</strong></p>
+                        <a href="https://github.com/Benjaf19/CrowdfundingIPN">Go to Github repository</a>
+                    </div>
+                </div>
+               <!-- <div class="slide">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project 2: Portfolio Website</h3>
+                        <p>Technologies: HTML, CSS, JavaScript, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project 3: Blogging Platform</h3>
+                        <p>Technologies: Django, Python, MySQL</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:benjaminjcf15@hotmail.com">benjaminjcf15@hotmail.com</a>.</p>
+        <p>Phone number: (+52) 55 47691290</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/benjamin-camposf/"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Benjaf19"><img src="img/github-icon.png" alt="GitHub"></a><br>
+            <a href="https://drive.google.com/file/d/1arzV4ulApAuOlvIzMXzzG8C52tJQD1it/view?usp=sharing">Download my Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Benjamin Campos. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Benjamin Campos. All Rights Reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="slider.js"></script>
 </body>
+<script>
+    const sections = document.querySelectorAll('.section');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+</script>
+
 </html>
