@@ -118,11 +118,7 @@ ul li {
     padding: 20px;
 }
 
-.slider {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-}
+
 
 .slide {
     min-width: 100%;
@@ -292,4 +288,69 @@ a:visited {
 .social img {
     width: 40px;
     height: 40px;
+}
+/* Portfolio Section Styles */
+#portfolioo {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Project Card */
+.project {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Slider inside the project */
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    min-width: 100%;
+    
+}
+
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slide-btn.left {
+    left: 10px;
+}
+
+.slide-btn.right {
+    right: 10px;
+}
+
+.slide-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+h4{
+    font-size: 20px;
 }
